@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::middleware('guest')->post('candidate/account/store', 'Front\Candidate\Account\RegistrationController@store');

@@ -6,6 +6,7 @@ use ReclutaTI\User;
 use ReclutaTI\Candidate;
 use Illuminate\Http\Request;
 use ReclutaTI\Http\Controllers\Controller;
+use ReclutaTI\Http\Requests\Front\Candidate\Account\Registration\StoreRequest;
 
 class RegistrationController extends Controller
 {
