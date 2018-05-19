@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.front.static');
 });
 
 Route::middleware('guest')->post('candidate/account/store', 'Front\Candidate\Account\RegistrationController@store');
