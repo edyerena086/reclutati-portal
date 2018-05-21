@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('layouts.front.static');
 });
 
+Route::middleware('guest')->get('candidate/account', 'Front\Candidate\Account\RegistrationController@index');
 Route::middleware('guest')->post('candidate/account/store', 'Front\Candidate\Account\RegistrationController@store');

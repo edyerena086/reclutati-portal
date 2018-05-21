@@ -10,6 +10,11 @@ use ReclutaTI\Http\Requests\Front\Candidate\Account\Registration\StoreRequest;
 
 class RegistrationController extends Controller
 {
+    public function index()
+    {
+        return view('front.static.candidate.account');
+    }
+
 	/**
 	 * [store description]
 	 * @param  StoreRequest $request [description]
