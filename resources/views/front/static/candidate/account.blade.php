@@ -1,5 +1,9 @@
 @extends('layouts.front.static')
 
+@section('csrf-token')
+	<meta name="csrf_token" content="{{ csrf_token() }}">
+@stop
+
 {{-- Page Title --}}
 @section('pageTitle')
 	Registrate

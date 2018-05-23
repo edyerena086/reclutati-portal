@@ -94,7 +94,11 @@
 
         			this.$http.post(this.baseUrl + '/candidate/account/store', data)
         				.then((response) => {
-
+        					if (response.data.errors == false) {
+        						window.location = response.data.callback_url;
+        					} else {
+        						this.formErrors.push(response.message);
+        					}
         				})
         				.catch((error) => {
         					if (error.response.status == 422) {
