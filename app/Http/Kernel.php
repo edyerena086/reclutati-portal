@@ -58,5 +58,6 @@ class Kernel extends HttpKernel
         'guest' => \ReclutaTI\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'guest.candidate' => \ReclutaTI\Http\Middleware\GuestCandidate::class,
+        'auth.candidate' => \ReclutaTI\Http\Middleware\AuthCandidate::class,
     ];
 }

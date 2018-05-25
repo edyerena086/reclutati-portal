@@ -20,3 +20,7 @@ Route::middleware('guest.candidate')->post('candidate/login', 'Front\Candidate\A
 //Candidate account registration
 Route::middleware('guest.candidate')->get('candidate/account', 'Front\Candidate\Account\RegistrationController@index');
 Route::middleware('guest.candidate')->post('candidate/account/store', 'Front\Candidate\Account\RegistrationController@store');
+//Dashboard candidate
+Route::middleware('auth.candidate')->get('candidate/dashboard', 'Front\Candidate\Dashboard\DashboardController@index');
+//Curriculum
+Route::middleware('auth.candidate')->get('candidate/dashboard/curriculum', 'Front\Candidate\Dashboard\CurriculumController@index');
