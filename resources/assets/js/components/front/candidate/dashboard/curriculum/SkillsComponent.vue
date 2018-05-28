@@ -2,13 +2,13 @@
 	<div class="panel panel-flat">
 		<div class="panel-heading">
 			<h5 class="panel-title">
-				<i class="icon-screen3"></i>
-				Experiencia laboral
+				<i class="icon-stack-check"></i>
+				Hábilidades
 			</h5>
 		</div>
 
 		<div class="panel-body">
-			<cv-job-history-item></cv-job-history-item>
+			<cv-skill-item></cv-skill-item>
 		</div>
 	</div>
 </template>

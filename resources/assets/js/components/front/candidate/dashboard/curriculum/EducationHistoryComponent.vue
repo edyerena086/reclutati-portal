@@ -19,7 +19,7 @@
 			<div v-if="displayForm">
 				<div class="form-group">
 					<label for="" class="col-lg-3">
-						Puesto:
+						Título:
 					</label>
 					<div class="col-lg-9">
 						<input type="text" class="form-control">
@@ -28,7 +28,7 @@
 
 				<div class="form-group">
 					<label for="" class="col-lg-3">
-						Empresa:
+						Nivel educativo:
 					</label>
 					<div class="col-lg-9">
 						<input type="text" class="form-control">
@@ -37,23 +37,7 @@
 
 				<div class="form-group">
 					<label for="" class="col-lg-3">
-						Descripción:
-					</label>
-					<div class="col-lg-9">
-						<textarea name="" id="" cols="5" rows="5" class="form-control"></textarea>
-					</div>
-				</div>
-
-				<div class="form-group">
-					<label for="" class="col-lg-3">
-						Fecha inicio:
-					</label>
-					<div class="col-lg-3">
-						<input type="text" class="form-control">
-					</div>
-
-					<label for="" class="col-lg-3">
-						Fecha termino:
+						Año:
 					</label>
 					<div class="col-lg-3">
 						<input type="text" class="form-control">

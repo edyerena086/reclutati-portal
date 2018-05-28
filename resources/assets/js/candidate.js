@@ -22,6 +22,10 @@ Vue.component('search-form', require('./components/front/candidate/dashboard/Sea
 Vue.component('cv-general-form', require('./components/front/candidate/dashboard/curriculum/GeneralComponent'));
 Vue.component('cv-job-histories', require('./components/front/candidate/dashboard/curriculum/JobHistories'));
 Vue.component('cv-job-history-item', require('./components/front/candidate/dashboard/curriculum/JobHistoryComponent'));
+Vue.component('cv-education-histories', require('./components/front/candidate/dashboard/curriculum/EducationHistories'));
+Vue.component('cv-education-history-item', require('./components/front/candidate/dashboard/curriculum/EducationHistoryComponent'));
+Vue.component('cv-skills', require('./components/front/candidate/dashboard/curriculum/SkillsComponent'));
+Vue.component('cv-skill-item', require('./components/front/candidate/dashboard/curriculum/SkillItemComponent'));
 
 const app = new Vue({
     el: '#app'

@@ -51,7 +51,8 @@
 
 					<div class="form-group">
 						<div class="col-lg-9 col-lg-offset-3">
-							<button class="btn btn-primary">
+							<button class="btn btn-primary btn-labeled">
+								<b><i class="icon-floppy-disk"></i></b>
 								Guardar
 							</button>
 						</div>

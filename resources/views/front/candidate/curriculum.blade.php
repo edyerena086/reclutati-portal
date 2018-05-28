@@ -13,6 +13,10 @@
 			<cv-general-form></cv-general-form>
 
 			<cv-job-histories></cv-job-histories>
+
+			<cv-education-histories></cv-education-histories>
+
+			<cv-skills></cv-skills>
 		</div>
 
 		<div class="col-md-3">
